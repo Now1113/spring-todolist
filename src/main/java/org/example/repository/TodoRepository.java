@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * TodoRepository
  */
 
-// JpaRepository<데이터베이스와 연결될 객체, 해당 객체 id의 필드타입>
+// JpaRepository<데이터베이스와 연결될 객체, 해당 객체 id의 필드타입>.
 @Repository
 public interface TodoRepository extends JpaRepository<TodoEntity, Long> {
 }

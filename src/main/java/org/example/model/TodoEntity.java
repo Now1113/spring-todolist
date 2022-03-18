@@ -20,9 +20,9 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-//실제 데이터베이스와 연관된 클래스
+//실제 데이터베이스와 연관된 클래스.
 public class TodoEntity {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -21,7 +21,7 @@ public class TodoService {
 
     private final TodoRepository todoRepository;
 
-    //1 todo 리스트 목록에 아이템을 추가
+    //1 todo 리스트 목록에 아이템을 추가.
     public TodoEntity add(TodoRequest request) {
         TodoEntity todoEntity = new TodoEntity();
         todoEntity.setTitle(request.getTitle());

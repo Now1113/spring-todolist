@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-//데이터베스로부터 응답과 관련된 클래스
+//데이터베스로부터 응답과 관련된 클래스.
 public class TodoResponse {
     private Long id;
     private String title;
